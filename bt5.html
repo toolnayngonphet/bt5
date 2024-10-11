@@ -34,13 +34,15 @@
         }
         .row{
             display: flex;
+            flex-wrap: wrap; /* Cho phép tự động xuống dòng */
         }
         .col{
-            width: calc(100%/6);
+            width: calc(100%/6 - 10px); /* Căn chỉnh chiều rộng cho các cột */
             margin-right: 10px;
             background-color: #ffffff;
             border-radius: 3px;
             box-shadow: 3px 3px 5px 0px rgb(88, 48, 48);
+            margin-bottom: 20px; /* Thêm khoảng cách dưới mỗi cột */
         }
 
         img{
@@ -81,14 +83,16 @@
 </head>
 <body>
     <div class="container">
+
         <div class="row">
+
             <div class="col">
-                <img src="image/dienthoai.jpg" alt="">
+                <img src="https://dvminhtan.github.io/bt5/image/dienthoai.jpg" alt="">
                 <div class="col-content">
                     <h4>Nước rửa móng Quyên cao cấp và 500ml...</h4>
-                    <p class="re-price">₫ 25,000</p>
+                     <p class="re-price">₫ 25,000</p>
                     <div class="discount">
-                        <span class="discount-price f-size-12">₫ 300.000</span>
+                        <span class="discount-price f-size-12">₫ 300.000 </span>
                         <span class="f-size-12">(-17%)</span>
                     </div>
                     <div class="icon-list">
@@ -104,7 +108,121 @@
                     </div>
                 </div>
             </div>
-            <!-- Thêm các sản phẩm khác tương tự ở đây -->
+
+            <div class="col">
+                <img src="https://dvminhtan.github.io/bt5/image/dochoighephinh.jpg" alt="">
+                <div class="col-content">
+                    <h4>Đồ chơi ghép hình sáng tạo...</h4>
+                    <p class="re-price">₫ 25,000</p>
+                    <div class="discount">
+                          <span class="discount-price f-size-12">₫ 300.000 </span>
+                            <span class="f-size-12">(-17%)</span>
+                    </div>
+                    <div class="icon-list">
+                        <div class="icon-item">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i>(10)</i>
+                        </div>
+                        <span>Hồ Chí Minh</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="https://dvminhtan.github.io/bt5/image/aothun.jpg" alt="">
+                <div class="col-content">
+                    <h4>Áo thun nam cotton co giãn...</h4>
+                    <p class="re-price">₫ 75,000</p>
+                    <div class="discount">
+                        <span class="discount-price f-size-12">₫ 300.000 </span>
+                        <span class="f-size-12">(-17%)</span>
+                    </div>
+                    <div class="icon-list">
+                        <div class="icon-item">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i>(30)</i>
+                        </div>
+                        <span>Hồ Chí Minh</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="https://dvminhtan.github.io/bt5/image/ghexoay.jpg" alt="">
+                <div class="col-content">
+                    <h4>Ghế xoay văn phòng công thái có ngả...</h4>
+                    <p class="re-price">₫ 1.525,000</p>
+                    <div class="discount">
+                        <span class="discount-price f-size-12">₫ 300.000 </span>
+                        <span class="f-size-12">(-17%)</span>
+                    </div>
+                    <div class="icon-list">
+                        <div class="icon-item">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <i>(580)</i>
+                        </div>
+                        <span>Hà Nội</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="https://dvminhtan.github.io/bt5/image/donghonam.jpg" alt="">
+                <div class="col-content">
+                    <h4>Đồng hồ Thông minh Trẻ em AMA Watch...</h4>
+                     <p class="re-price">₫ 25,000</p>
+                    <div class="discount">
+                        <span class="discount-price f-size-12">₫ 300.000 </span>
+                        <span class="f-size-12">(-17%)</span>
+                    </div>
+                    <div class="icon-list">
+                        <div class="icon-item">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <i>(190)</i>
+                        </div>
+                        <span>Hồ Chí Minh</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="https://dvminhtan.github.io/bt5/image/banlamviec.jpg" alt="">
+                <div class="col-content">
+                    <h4>BG - Bàn làm việc học tập kèm kệ sách ...</h4>
+                     <p class="re-price">₫ 575,000</p>
+                    <div class="discount">
+                        <span class="discount-price f-size-12">₫ 300.000 </span>
+                        <span class="f-size-12">(-17%)</span>
+                    </div>
+                    <div class="icon-list">
+                        <div class="icon-item">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <i>(20)</i>
+                        </div>
+                        <span>Hồ Chí Minh</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
